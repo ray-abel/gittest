@@ -11,9 +11,7 @@
   System.out.println("enter integer vaue for c");
   c= f.nextInt();
 
-  if (a > b && a > c)
-      System.out.println("First number is largest.");
-    else if (b > a && b > c)
+  
       System.out.println("Second number is largest.");
     else if (c > a && c > b)
       System.out.println("Third number is largest.");
